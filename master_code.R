@@ -8,3 +8,5 @@ marsupialsTibble <- as_tibble(marsupials) %>% filter(Genus == "Acrobates")
 summary(lm(MaxLifeSpan ~ Mass, data = marsupialsTibble))
 ggplot(marsupialsTibble, aes(y = MaxLifeSpan, x = Mass)) +
   geom_point()
+
+# more cod here...
